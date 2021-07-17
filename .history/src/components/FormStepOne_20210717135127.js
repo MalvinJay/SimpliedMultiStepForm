@@ -2,8 +2,7 @@ import React from 'react'
 import { Form, Input, Button } from 'antd';
 
 const StepOne = Form.create({
-    name:'step_one'
-})( props => {
+    name:'step_one'})( props => {
     const { getFieldDecorator, validateFields } = props.form;
     const validateInput = (e) => {
         e.preventDefault();
